@@ -343,6 +343,14 @@
   "Нет права добавлять устройства": "Non hai i permessi per aggiungere dispositivi",
   "__patterns__": [
     [
+      "^и ещё 1$",
+      "e un altro"
+    ],
+    [
+      "^и ещё (\\d+)$",
+      "e altri \\1"
+    ],
+    [
       "^(.*) · меньше всех у (.+?), ([\\d.,]+) МиБ, это ([\\d.,]+)% от диска\\. Обновление RouterOS на такой точке может не встать$",
       "\\1 · valore minimo su \\2, \\3 MiB, pari al \\4% del disco. L'aggiornamento di RouterOS potrebbe non trovare spazio su questo punto"
     ],
@@ -1669,6 +1677,7 @@
   "Пауза между пачками, секунд": "Pausa tra i batch, in secondi",
   "Первая копия": "Prima copia",
   "Первая строка файла это заголовки. Распознаются колонки: <span class=\"mono\">name, host, username, password, api_port, ftp_port, group, comment</span>. Разделитель (<span class=\"mono\">,</span> или <span class=\"mono\">;</span>) определяется автоматически. Несуществующие группы создаются на лету.": "La prima riga del file contiene le intestazioni. Colonne riconosciute: <span class=\"mono\">name, host, username, password, api_port, ftp_port, group, comment</span>. Il separatore (<span class=\"mono\">,</span> o <span class=\"mono\">;</span>) viene rilevato automaticamente. I gruppi inesistenti vengono creati al momento.",
+  "Первая строка файла это заголовки. Распознаются колонки: <span class=\"mono\">name, host, username, password, api_port, ftp_port, ssh_port, group, comment</span>. Разделитель (<span class=\"mono\">,</span> или <span class=\"mono\">;</span>) определяется автоматически. Несуществующие группы создаются на лету.": "La prima riga del file contiene le intestazioni. Colonne riconosciute: <span class=\"mono\">name, host, username, password, api_port, ftp_port, ssh_port, group, comment</span>. Il separatore (<span class=\"mono\">,</span> o <span class=\"mono\">;</span>) viene rilevato automaticamente. I gruppi inesistenti vengono creati al momento.",
   "Перевести на туннельные адреса": "Passa a indirizzi di tunnel",
   "Перезагрузить": "Riavvia",
   "Перестать слать журнал": "Interrompi invio log",
@@ -1840,7 +1849,7 @@
   "Сессия не авторизована (проверьте политику api у пользователя)": "Sessione non autorizzata (verifica il criterio api associato all'utente)",
   "Сети за споуком": "Reti dietro lo spoke",
   "Сети за хабом, которые должны видеть споуки. Попадают в их конфигурацию и маршруты.": "Reti dietro l'hub che gli spoke devono poter raggiungere. Vengono integrate nella loro configurazione e nei relativi routing.",
-  "Синтаксис API, а не консоли: путь через слэши, параметры отдельно. Консольную команду выполняет действие «Команда как в терминале (SSH)».": "Sintassi API anziché di console: percorso tramite barre oblique e parametri separati. Per eseguire un comando di console, utilizza l'azione «Comando come nel terminale (SSH)»." ,
+  "Синтаксис API, а не консоли: путь через слэши, параметры отдельно. Консольную команду выполняет действие «Команда как в терминале (SSH)».": "Sintassi API anziché di console: percorso tramite barre oblique e parametri separati. Per eseguire un comando di console, utilizza l'azione «Comando come nel terminale (SSH)».",
   "Система": "Sistema",
   "Скачан архив панели": "Archivio del pannello scaricato",
   "Скачать и установить обновление с перезагрузкой и проверкой результата": "Scarica e installa l'aggiornamento con riavvio e verifica del risultato",
