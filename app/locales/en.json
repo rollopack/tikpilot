@@ -343,6 +343,22 @@
   "Нет права добавлять устройства": "You don't have permission to add devices",
   "__patterns__": [
     [
+      "^и ещё 1$",
+      "and 1 more"
+    ],
+    [
+      "^и ещё (\\d+)$",
+      "and \\1 more"
+    ],
+    [
+      "^(.*) и ещё 1(?!\\d)(.*)$",
+      "\\1 and 1 more\\2"
+    ],
+    [
+      "^(.*) и ещё (\\d+)(.*)$",
+      "\\1 and \\2 more\\3"
+    ],
+    [
       "^(.*) · меньше всех у (.+?), ([\\d.,]+) МиБ, это ([\\d.,]+)% от диска\\. Обновление RouterOS на такой точке может не встать$",
       "\\1 · lowest on \\2, \\3 MiB, which is \\4% of the disk. A RouterOS upgrade may not fit on such a site"
     ],

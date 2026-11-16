@@ -2315,6 +2315,20 @@ def test_attention_device_overflow_is_translated_into_italian():
     assert i18n.translate_text("Outlet и ещё 1", "it") == "Outlet e un altro"
 
 
+def test_attention_device_overflow_is_translated_into_english():
+    """Переводится только суффикс списка, имена устройств остаются нетронутыми."""
+    from app import i18n
+
+    i18n.load_catalogs()
+    assert i18n.translate_text("4810 - Outlet и ещё 104", "en") == (
+        "4810 - Outlet and 104 more"
+    )
+    assert i18n.translate_text(
+        "4810 - Outlet и ещё 104 · never backed up: 107", "en"
+    ) == "4810 - Outlet and 104 more · never backed up: 107"
+    assert i18n.translate_text("Outlet и ещё 1", "en") == "Outlet and 1 more"
+
+
 def test_browser_strings_are_translated_into_italian():
     """Строки JavaScript тоже должны иметь итальянский перевод."""
     from app import i18n
