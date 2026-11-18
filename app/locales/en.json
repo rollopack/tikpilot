@@ -1133,6 +1133,10 @@
     [
       "^Необработанная ошибка на устройстве (.+)$",
       "Unhandled error on device \\1"
+    ],
+    [
+      "^Точка не отвечает выше ([\\d.,]+) мин$",
+      "Site unreachable for over \\1 min"
     ]
   ],
   "long-term рекомендуется для рабочих точек.": "long-term is recommended for production sites.",

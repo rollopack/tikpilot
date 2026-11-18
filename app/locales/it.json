@@ -1133,6 +1133,10 @@
     [
       "^Необработанная ошибка на устройстве (.+)$",
       "Errore non gestito sul dispositivo \\1"
+    ],
+    [
+      "^Точка не отвечает выше ([\\d.,]+) мин$",
+      "Sito offline da oltre \\1 min"
     ]
   ],
   "long-term рекомендуется для рабочих точек.": "La versione long-term è consigliata per i siti di produzione.",
