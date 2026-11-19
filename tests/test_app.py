@@ -5673,6 +5673,13 @@ def test_local_operator_mapping_can_be_edited_from_settings(client, router):
         assert "Match pattern" in english_page
         assert "Operator name: RU-LOCAL" in english_page
         assert "Operator colour: RU-LOCAL" in english_page
+
+        client.get("/lang/it", follow_redirects=False)
+        italian_page = client.get("/settings/reference").text
+        assert "Operatori personalizzati" in italian_page
+        assert "Pattern di corrispondenza" in italian_page
+        assert "Nome operatore: RU-LOCAL" in italian_page
+        assert "Colore operatore: RU-LOCAL" in italian_page
     finally:
         client.get("/lang/ru", follow_redirects=False)
         operator.save_local("RU-LOCAL", "")
