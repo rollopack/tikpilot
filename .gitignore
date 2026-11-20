@@ -28,6 +28,7 @@ tikpilot-panel-*.tar.gz
 check*.txt
 
 # Памятка для ассистента: рабочая записка, а не часть проекта
+AGENTS.md
 CLAUDE.md
 
 # Копия прежнего кода, которую оставляет tools/update.sh на случай отката
