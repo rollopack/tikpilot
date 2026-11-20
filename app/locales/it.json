@@ -1,4 +1,12 @@
 {
+  "Экспорт Winbox": "Esporta Winbox",
+  "В файл попадут все доступные вам устройства, независимо от фильтров.": "Il file conterrà tutti i dispositivi a te accessibili, indipendentemente dai filtri.",
+  "<span>Включить пароли устройств</span>": "<span>Includi le password dei dispositivi</span>",
+  "Пароли сохраняются в файле в открытом виде. Храните его в безопасном месте.": "Le password sono salvate nel file in chiaro. Conservalo in un luogo sicuro.",
+  "Экспортировать пароли устройств": "Esporta le password dei dispositivi",
+  "Выгрузка паролей устройств в открытом виде для Winbox.": "Esportazione delle password dei dispositivi in chiaro per Winbox.",
+  "Не удалось расшифровать пароль устройства": "Impossibile decifrare la password del dispositivo.",
+  "Winbox: значение поля превышает 255 байт UTF-8": "Winbox: un campo supera i 255 byte UTF-8.",
   "Нужен на случай гибели сервера: бэкапы роутеров лежат на нём же, и вместе с ним пропадёт ровно то, ради чего они снимались. <br> Внутри копия данных и код этой же версии. Если панель ставили установщиком, туда попадает и скрипт разворачивания: тогда на чистой Ubuntu хватит <span class=\"mono\">tar xzf tikpilot-panel-*.tar.gz</span> и <span class=\"mono\">sudo bash restore.sh</span>. При установке копированием установщика в каталоге нет, и разворачивать надо руками: порядок расписан в пояснении внутри архива.": "Necessario in caso di guasto del server: i backup dei router si trovano sullo stesso server e, in caso di crash, andrebbe perso proprio ciò per cui sono stati fatti. <br> All'interno si trovano una copia dei dati e il codice della stessa versione. Se il pannello è stato installato tramite programma di installazione, viene incluso anche lo script di ripristino; in tal caso, su una Ubuntu pulita, saranno sufficienti <span class=\"mono\">tar xzf tikpilot-panel-*.tar.gz</span> e <span class=\"mono\">sudo bash restore.sh</span>. Se l'installazione è avvenuta tramite copia, il programma di installazione non è presente nella directory e il ripristino deve essere eseguito manualmente: la procedura è descritta nella nota all'interno dell'archivio.",
   "Что вошло на самом деле, видно в <span class=\"mono\">manifest.json</span> внутри архива.": "Ciò che è stato effettivamente incluso è visibile in <span class=\"mono\">manifest.json</span> all'interno dell'archivio.",
   "Вышла новая версия панели": "È disponibile una nuova versione del pannello",
